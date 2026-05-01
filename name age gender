@@ -1,0 +1,13 @@
+name=input("kareem")
+gender=input("male")
+age=int(input())
+if age<=18:
+    print("Not eligible for vote",name)
+if age>60:
+    print("eligible for vote",name)
+if age>=30 and gender=="m":
+    print("eligible for vote",name)
+elif age>=30 and gender=="f":
+    print("Not eligible for vote",name)
+else:
+    print("Not eligible for vote",name)
